@@ -62,6 +62,7 @@ span {
   color: var(--pressed-color);
 }
 .section-herou {
+  text-align: center;
   height: 600px;
   background-color: var(--title-text-color);
 }
@@ -76,7 +77,7 @@ span {
 }
 .one-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -98,12 +99,20 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 .section-three {
   background-color: #f4f4fd;
 }
+.three-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
 .three-title-name {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,6 +133,24 @@ span {
 }
 .three-title-background {
   background-color: #ffffff;
+}
+/* Flex инструкции */
+
+.flax-header.list {
+  display: flex;
+}
+.flax-header.list .li-head:not(:last-child) {
+  margin-right: 40px;
+}
+.flax-section-one.list {
+  display: flex;
+}
+.contaier-one-title {
+  margin-right: 24px;
+  width: 100%;
+}
+.flax.list {
+  display: flex;
 }
 
 .herou-title {
@@ -194,7 +221,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 .portfolio .text-portfolio {
   font-weight: 400;
@@ -215,8 +242,4 @@ span {
   height: 100%;
   width: 1158px;
   outline: 2px solid coral;
-}
-.contaier-one-title {
-  width: 264px;
-  outline: 2px solid blue;
 }
