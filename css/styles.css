@@ -24,6 +24,8 @@ body {
 }
 .link {
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 span {
   color: var(--title-text-color);
@@ -73,17 +75,23 @@ span {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .one-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .text-section-one {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--text-color);
   letter-spacing: 0.02em;
 }
 .two-title,
 .three-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -94,12 +102,16 @@ span {
   background-color: #f4f4fd;
 }
 .three-title-name {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .text-section-three {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--text-color);
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -157,7 +169,10 @@ span {
 .logo-span {
   color: var(--title-text-color);
 }
-
+.portfolio-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .portfolio .button {
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
@@ -178,12 +193,16 @@ span {
   color: var(--title-text-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .portfolio .text-portfolio {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer-text {
@@ -196,4 +215,8 @@ span {
   height: 100%;
   width: 1158px;
   outline: 2px solid coral;
+}
+.contaier-one-title {
+  width: 264px;
+  outline: 2px solid blue;
 }
