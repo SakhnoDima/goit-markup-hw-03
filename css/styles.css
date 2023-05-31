@@ -47,11 +47,14 @@ span {
 .list .link:focus {
   color: var(--pressed-color);
 }
-.logo.link {
+.logo.link.nav-marg {
   padding: 24px;
 }
 .flax-nav .nav-marg + .nav-marg {
   margin-left: 76px;
+}
+.flax .adres-marg + .adres-marg {
+  margin-left: 40px;
 }
 .flax-header .link {
   display: block;
@@ -150,6 +153,9 @@ span {
 .three-title-background {
   background-color: #ffffff;
 }
+.three-cards {
+  text-align: center;
+}
 /* Flex инструкции */
 .container.header {
   display: flex;
@@ -179,14 +185,37 @@ span {
 .flax.list {
   display: flex;
 }
-.section-two-list {
+.flax.list.cards {
+  display: flex;
+  padding-bottom: 120px;
+}
+.section-two-list,
+.three-title-background {
   margin-right: 24px;
   width: 100%;
 }
-.section-two-list:last-child {
+.section-two-list:last-child,
+.three-title-background {
   margin-right: 0px;
 }
 
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.portfolio.list {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+.desk.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*  */
 .herou-title {
   font-size: 56px;
   line-height: 1.07;
@@ -226,9 +255,13 @@ span {
 .footer-logo {
   color: #f4f4fd;
 }
+
 /* portfolio */
 .logo-span {
   color: var(--title-text-color);
+}
+.portfolio-section {
+  margin-bottom: 120px;
 }
 .portfolio-title {
   margin-top: 0;
@@ -256,6 +289,7 @@ span {
   letter-spacing: 0.02em;
   margin-top: 0;
   margin-bottom: 8px;
+  margin-left: 16px;
 }
 .portfolio .text-portfolio {
   font-weight: 400;
@@ -264,12 +298,24 @@ span {
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 16px;
+}
+.cards {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+.container .logo.link.footer {
+  display: block;
+  width: fit-content;
+  /* background-color: #404bbf; */
 }
 
 .footer-text {
   color: var(--unpresed-color);
   letter-spacing: 0.02em;
+  width: 264px;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
