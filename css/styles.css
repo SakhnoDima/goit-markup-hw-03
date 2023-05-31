@@ -344,7 +344,8 @@ span {
   color: var(--title-text-color);
 }
 .portfolio-section {
-  margin-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   margin-top: 0;
