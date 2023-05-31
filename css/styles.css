@@ -93,11 +93,14 @@ span {
   text-align: center;
   height: 600px;
   background-color: var(--title-text-color);
+  padding: 188px 0;
 }
 .herou-title {
+  max-width: 496px;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -244,6 +247,12 @@ span {
   line-height: 1.07;
 }
 .herou-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
   margin-top: 48px;
   padding: 16px 32px;
   font-family: "Roboto", sans-serif;
