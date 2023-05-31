@@ -13,6 +13,9 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+img {
+  display: block;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -200,16 +203,19 @@ span {
   display: flex;
   padding-bottom: 120px;
 }
-.section-two-list,
-.three-title-background {
+.section-two-list {
   margin-right: 24px;
   width: 100%;
 }
-.section-two-list:last-child,
-.three-title-background {
+.section-two-list:last-child {
   margin-right: 0px;
 }
-
+.three-title-background {
+  margin-right: 24px;
+}
+.three-title-background:last-child {
+  margin-right: 0px;
+}
 .footer .container {
   display: flex;
   flex-direction: column;
@@ -322,7 +328,7 @@ span {
 }
 
 .cards {
-  /* width: calc((100%-48px) / 3);  НЕ РАБОТАЕТ*/
+  width: calc((100%-48px) / 3); /*  НЕ РАБОТАЕТ */
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
