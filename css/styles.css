@@ -39,7 +39,9 @@ span {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-
+.button-line {
+  border-bottom: 1px solid #e7e9fc;
+}
 .list .link {
   color: var(--title-text-color);
 }
@@ -50,12 +52,15 @@ span {
 .logo.link.nav-marg {
   padding: 24px;
 }
-.flax-nav .nav-marg + .nav-marg {
+.logo.link.nav-marg {
+  margin-right: 76px;
+}
+/* .flax-nav .nav-marg + .nav-marg {
   margin-left: 76px;
-}
-.flax .adres-marg + .adres-marg {
+} */
+/* .flax .adres-marg + .adres-marg {
   margin-left: 40px;
-}
+} */
 .flax-header .link {
   display: block;
   padding-top: 24px;
@@ -158,12 +163,14 @@ span {
 }
 /* Flex инструкции */
 .container.header {
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .flax-nav {
   display: flex;
+  align-items: center;
 }
 
 .flax-header.list {
@@ -171,6 +178,10 @@ span {
 }
 .flax-header.list .li-head:not(:last-child) {
   margin-right: 40px;
+}
+.adres-nav .flax.list {
+  display: flex;
+  gap: 40px;
 }
 .flax-section-one.list {
   display: flex;
@@ -339,6 +350,6 @@ span {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  width: 1128px;
+  width: 1158px;
   /* outline: 2px solid coral; */
 }
