@@ -291,6 +291,9 @@ span {
   margin-bottom: 8px;
   margin-left: 16px;
 }
+.text-portfolio {
+  margin-left: 16px;
+}
 .portfolio .text-portfolio {
   font-weight: 400;
   font-size: 16px;
@@ -321,5 +324,5 @@ span {
   margin-right: auto;
   height: 100%;
   width: 1158px;
-  outline: 2px solid coral;
+  /* outline: 2px solid coral; */
 }
