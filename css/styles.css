@@ -27,6 +27,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 span {
   color: var(--title-text-color);
 }
@@ -45,6 +46,22 @@ span {
 .list .link:hover,
 .list .link:focus {
   color: var(--pressed-color);
+}
+.logo.link {
+  padding: 24px;
+}
+.flax-nav .nav-marg + .nav-marg {
+  margin-left: 76px;
+}
+.flax-header .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.flax.list .link.adres {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .adres-nav {
   font-style: normal;
@@ -72,7 +89,6 @@ span {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  /* border: 1px solid #000000; */
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .one-title {
@@ -135,6 +151,14 @@ span {
   background-color: #ffffff;
 }
 /* Flex инструкции */
+.container.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flax-nav {
+  display: flex;
+}
 
 .flax-header.list {
   display: flex;
@@ -149,8 +173,18 @@ span {
   margin-right: 24px;
   width: 100%;
 }
+.contaier-one-title:last-child {
+  margin-right: 0px;
+}
 .flax.list {
   display: flex;
+}
+.section-two-list {
+  margin-right: 24px;
+  width: 100%;
+}
+.section-two-list:last-child {
+  margin-right: 0px;
 }
 
 .herou-title {
