@@ -196,7 +196,9 @@ span {
 }
 .three-cards {
   text-align: center;
+  padding: 32px 16px;
 }
+
 /* Flex инструкции */
 .container.header {
   padding: 0 15px;
@@ -323,12 +325,13 @@ span {
   padding: 100px 0;
 }
 .container .logo.link.footer {
-  display: inline-block;
   width: fit-content;
   margin-bottom: 16px;
   /* background-color: #404bbf; */
 }
-
+.logo.link.footer {
+  display: inline-block;
+}
 .footer-text {
   color: var(--unpresed-color);
   letter-spacing: 0.02em;
