@@ -324,13 +324,15 @@ span {
 .footer.footer-botton {
   padding: 100px 0;
 }
-.container .logo.link.footer {
+/* .container .logo.link.footer {
   width: fit-content;
   margin-bottom: 16px;
   /* background-color: #404bbf; */
-}
+
 .logo.link.footer {
   display: inline-block;
+  width: fit-content;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: var(--unpresed-color);
