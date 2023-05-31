@@ -43,8 +43,8 @@ span {
 .list .link {
   color: var(--title-text-color);
 }
-.list .link:hover,
-.list .link:focus {
+.flax-header.list .link:hover,
+.flax-header.list .link:focus {
   color: var(--pressed-color);
 }
 .logo.link.nav-marg {
@@ -309,9 +309,20 @@ span {
   margin-bottom: 0;
   margin-left: 16px;
 }
+
 .cards {
+  /* width: calc((100%-48px) / 3);  НЕ РАБОТАЕТ*/
+
+  width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
+  /* background-color: red; */
+}
+.cards:nth-child(3n) {
+  margin-right: 0px;
+}
+.cards.cards:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 .container .logo.link.footer {
   display: block;
@@ -329,6 +340,6 @@ span {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  width: 1158px;
+  width: 1128px;
   /* outline: 2px solid coral; */
 }
