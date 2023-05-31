@@ -211,6 +211,12 @@ span {
   padding-top: 96px;
   padding-bottom: 72px;
 }
+.prof-but {
+  margin-right: 24px;
+}
+.prof-but:last-child {
+  margin-right: 0px;
+}
 .desk.list {
   display: flex;
   flex-wrap: wrap;
