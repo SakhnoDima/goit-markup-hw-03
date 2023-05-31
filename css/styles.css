@@ -149,6 +149,15 @@ span {
 .section.section-one {
   padding: 120px 0;
 }
+.section.section-two {
+  padding-bottom: 120px;
+}
+.one-title {
+  margin-bottom: 8px;
+}
+.two-title {
+  margin-bottom: 72px;
+}
 .section-three {
   padding-bottom: 120px;
   background-color: #f4f4fd;
