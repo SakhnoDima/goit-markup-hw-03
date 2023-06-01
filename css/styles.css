@@ -155,6 +155,7 @@ span {
 }
 .one-title {
   margin-bottom: 8px;
+  margin-top: 0;
 }
 .two-title {
   margin-bottom: 72px;
@@ -250,12 +251,11 @@ span {
 .three-title-background:last-child {
   margin-right: 0px;
 }
-.footer .container {
+/* .footer .container {
   display: flex;
   flex-direction: column;
   /* padding-top: 100px;
-  padding-bottom: 100px; */
-}
+  padding-bottom: 100px;} */
 .portfolio.list {
   display: flex;
   justify-content: center;
