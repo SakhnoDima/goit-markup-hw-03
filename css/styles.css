@@ -336,6 +336,9 @@ a.logo.link.footer {
   width: fit-content;
   margin-bottom: 16px;
 }
+.logo-footer {
+  display: inline-block;
+}
 .footer-text {
   color: var(--unpresed-color);
   letter-spacing: 0.02em;
