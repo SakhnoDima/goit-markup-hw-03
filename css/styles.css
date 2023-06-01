@@ -390,11 +390,7 @@ a.logo.link.footer {
 }
 
 .cards {
-  width: calc((100%-48px) / 3); /*  НЕ РАБОТАЕТ */
-  /* width: 360px; */
-  /* margin-right: 24px; */
-  /* margin-bottom: 48px; */
-  /* background-color: red; */
+  width: calc((100% - 48px) / 3);
 }
 .cards:nth-child(3n) {
   margin-right: 0px;
