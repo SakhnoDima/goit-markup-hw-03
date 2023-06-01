@@ -386,6 +386,7 @@ span {
 }
 .text-portfolio {
   margin-left: 16px;
+  color: var(--text-color);
 }
 .portfolio .text-portfolio {
   font-weight: 400;
